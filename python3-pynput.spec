@@ -10,7 +10,7 @@ License:	GPLv3
 URL:		https://github.com/moses-palmer/pynput
 Source0:	https://github.com/moses-palmer/pynput/archive/v%{version}.tar.gz
 
-BuildRequires:	python3
+BuildRequires:	python3-devel
 Requires:       python3-xlib
 Requires:       python3-six
 
