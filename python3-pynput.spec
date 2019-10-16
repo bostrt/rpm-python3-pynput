@@ -2,7 +2,7 @@
 
 Name:		python3-pynput
 Version:	1.4.4
-Release:	2
+Release:	3
 Summary:	Sends virtual input commands
 
 
@@ -34,6 +34,9 @@ Currently, mouse and keyboard input and monitoring are supported.
 %{python3_sitelib}/pynput-%{version}-py?.?.egg-info
 
 %changelog
+* Wed Oct 16 2019 Robert Bost <bostrt@gmail.com> 1.4.4-3
+- Configured GitHub webhook
+
 * Wed Oct 16 2019 Robert Bost <bostrt@gmail.com> 1.4.4-2
 - Adding README (bostrt@gmail.com)
 
